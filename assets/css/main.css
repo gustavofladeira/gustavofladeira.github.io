@@ -1849,10 +1849,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	.wrapper.style0 {
-		background-image: url("images/background.png");
-		background-color: #fff;
-	}
+		.wrapper.style0 {
+			background-image: url("images/background.png");
+			background-color: #fff;
+		}
 
 		.wrapper.style1 {
 			background-color: #fff;
