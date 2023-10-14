@@ -2284,8 +2284,8 @@ input, select, textarea {
 			}
 			
 			.profile-pic {
-					  width: 150px;
-					  height: 150px;
+					  width: 20px;
+					  height: 20px;
 					  border-radius: 50%;
 					  object-fit: cover;
 			}
