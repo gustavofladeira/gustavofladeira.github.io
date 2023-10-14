@@ -2268,5 +2268,40 @@ input, select, textarea {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+		/* Wrapper styling */
+.wrapper {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Social list */
+.social-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Social Icons */
+.social-icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-label {
+  margin-left: 8px;
+}
+
 
 	}
