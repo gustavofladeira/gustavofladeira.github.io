@@ -2271,7 +2271,7 @@ input, select, textarea {
 		/* Styles for the home section */
 			#home {
 					  height: 100vh; /* Full viewport height */
-					  background-image: url('images/background.png'); 
+					  background-image: url('images2/background.png'); 
 					  background-size: cover; 
 					  background-position: center;
 					  display: flex;
