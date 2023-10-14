@@ -2304,6 +2304,14 @@ input, select, textarea {
 					  background-color: #3498db;
 					  color: white;
 			}
+		
+			.home-bg {
+					    background-image: url('images2/background.png');
+					    background-repeat: no-repeat;
+					    background-size: cover;
+					    background-position: center center;
+		}
+
 
 
 
