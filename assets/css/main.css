@@ -1843,14 +1843,14 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/background.png");
+		/* background-image: url("images/background.png"); */
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
+			background-image: url("images/background.png");
 			background-color: #fff;
 		}
 
@@ -1865,7 +1865,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-image: none;
+			/* background-image: none; */
 			background-color: #2E2E2E;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
