@@ -2274,8 +2274,8 @@ input, select, textarea {
 						margin-top: 0;
 					}
 		/* Styles for the home section */
-			#home {
-					  height: 100vh; /* Full viewport height */
+		/*	#home {
+					  height: 100vh; 
 					  background-image: url('images2/background.png'); 
 					  background-size: cover; 
 					  background-position: center;
@@ -2315,7 +2315,7 @@ input, select, textarea {
 					    background-repeat: no-repeat;
 					    background-size: cover;
 					    background-position: center center;
-		}
+		} */
 
 
 
