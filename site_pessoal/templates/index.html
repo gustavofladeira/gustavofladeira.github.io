@@ -18,6 +18,61 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    <style>
+        /* Geral */
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    /* Cabeçalho */
+    .masthead {
+        background-color: #007bff; /* Cor primária do Bootstrap */
+        padding: 100px 0;
+        color: white;
+    }
+
+    .masthead-avatar {
+        width: 150px; /* Ajuste conforme necessário */
+        border-radius: 50%; /* Faz a imagem ficar redonda */
+    }
+
+    .divider-custom {
+        margin: 25px 0;
+    }
+
+    .divider-custom-line {
+        width: 50px;
+        height: 2px;
+        background-color: white;
+        margin: 0 auto; /* Centraliza */
+    }
+
+    /* Tipografia e espaçamento */
+    .masthead-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .masthead-subheading {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    /* Adiciona responsividade */
+    @media (max-width: 768px) {
+        .masthead-heading {
+            font-size: 2rem;
+        }
+
+        .masthead-subheading {
+            font-size: 1rem;
+        }
+    }
+    </style>
 </head>
 
 <body id="page-top">
@@ -272,5 +327,22 @@
 
 
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var typedText = 'MSc in Economics | Data Analyst | Data Science | Machine Learning';
+        var i = 0;
+        var speed = 50; // Velocidade de digitação
+    
+        function typeWriter() {
+            if (i < typedText.length) {
+                document.querySelector('.masthead-subheading').innerHTML += typedText.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    
+        typeWriter();
+    });
+</script>
 
 </html>
