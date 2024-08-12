@@ -33,9 +33,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Portfolio</a></li>
+                            href="#portfolio">Projetos</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contact</a></li>
+                            href="#contact">Contato</a></li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="docs/Currículo - Gustavo Ferreira Ladeira.pdf" target="_blank">CV</a>
@@ -56,8 +56,10 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">MSc in Economics | Data Analyst | Data Science and
-                Machine Learning enthusiast</p>
+            <!-- <p class="masthead-subheading font-weight-light mb-0">MSc in Economics | Data Analyst | Data Science and Machine Learning enthusiast</p> -->
+            <p class="masthead-subheading font-weight-light mb-0" style="text-align: justify;"><strong>Mestre em Economia</strong> com ampla experiência em análise de dados, 
+                modelagem econométrica e <strong>inferência causal</strong>. Atualmente estou me aprofundando em <strong><u>machine learning</u></strong>, 
+                e uso este espaço para compartilhar projetos práticos que desenvolvo ao longo dessa jornada.</p>
         </div>
     </header>
 
@@ -67,7 +69,7 @@
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projetos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -77,10 +79,45 @@
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
 
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="portfolio-item mx-auto"
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <!-- <div class="portfolio-item mx-auto"
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> -->
+                        <a href="https://github.com/gustavofladeira/medical-costs/blob/main/main_script.ipynb" target="_blank" rel="noopener noreferrer">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/proj_medical-costs.png"
+                                alt="" />
+                        </a>
+                        <div style="margin-top: 15px;">
+                            <h5 style="margin-bottom: 0.5rem;">Previsão dos custos de planos de saúde
+                            </h5>
+                            <p style="text-align: justify;">Este projeto explora a previsão dos custos de planos 
+                                de saúde utilizando <strong>regressão linear</strong>. Com base em um conjunto de dados que inclui 
+                                informações demográficas e características dos segurados, como idade, sexo, IMC, 
+                                número de filhos, fumante ou não, e região, o modelo desenvolvido busca identificar 
+                                as principais variáveis que influenciam os custos. </p>
+                        </div>
+                        <div style="color: red; text-align: center; margin-top: 10px;">
+                            (em andamento)
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- Portfolio Item 1 -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <!-- <div class="portfolio-item mx-auto"
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> -->
+                        
                         <a href="https://medium.com/@gustavofladeira/alugu%C3%A9is-no-rio-de-janeiro-eb2f5b88e69b"
                             target="_blank" rel="noopener noreferrer">
                             <div
@@ -93,106 +130,27 @@
                                 alt="Web scraping para dados de aluguéis no Rio de Janeiro" />
                         </a>
                         <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">Real State analysis in Rio de Janeiro</h5>
-                            <p style="text-align: justify;">This project employs web scraping techniques to gather
-                                property data from OLX, utilizes a random forest algorithm to classify properties
-                                into sale or rental categories, and analyzes geographical trends across neighborhoods
-                                through data visualization.</p>
+                            <h5 style="margin-bottom: 0.5rem;">Análise e previsão de aluguéis no Rio de Janeiro</h5>
+                            <p style="text-align: justify;">Este projeto emprega técnicas de web scraping para coletar 
+                                dados de imóveis no OLX, utiliza um algoritmo de <strong>random forest</strong> para classificar os imóveis 
+                                em categorias de venda ou aluguel, e analisa as tendências geográficas nos bairros por meio 
+                                de visualizações de dados.</p>
                         </div>
-                        <!-- Adiciona a frase "(in progress)" em vermelho na parte de baixo -->
                         <div style="color: red; text-align: center; margin-top: 10px;">
-                            (in progress)
+                            (em andamento)
                         </div>
                     </div>
                 </div>
 
 
-                <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <a href="https://github.com/gustavofladeira/medical-costs/blob/main/main_script.ipynb" target="_blank" rel="noopener noreferrer">
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/proj_medical-costs.png"
-                                alt="" />
-                        </a>
-                        <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">Insurance Forecast using Linear Regression
-                            </h5>
-                            <p style="text-align: justify;">Description</p>
-                        </div>
-                        <!-- Adiciona a frase "(in progress)" em vermelho na parte de baixo -->
-                        <div style="color: red; text-align: center; margin-top: 10px;">
-                            (in progress)
-                        </div>
-                    </div>
-                </div>
 
-
-                <!-- Portfolio Item 2-->
-                <!-- <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <a href="" target="_blank" rel="noopener noreferrer">
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/proj_reeleicao.png"
-                                alt="Web scraping para dados de aluguéis no Rio de Janeiro" />
-                        </a>
-                        <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">Electoral Dynamics in Brazil
-                            </h5>
-                            <p style="text-align: justify;">This project examines the 2020 Brazilian elections, aiming
-                                to build a dataset centered on two main variables: (1) the decision of incumbent mayors
-                                to seek reelection and (2) their success in securing another term.</p>
-                        </div>
-                        <div style="color: red; text-align: center; margin-top: 10px;">
-                            (in progress)
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Portfolio Item 3-->
-                <!-- <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <a href="" target="_blank" rel="noopener noreferrer">
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid"
-                                src="assets/img/portfolio/proj_statistical_learning.png"
-                                alt="Web scraping para dados de aluguéis no Rio de Janeiro" />
-                        </a>
-                        <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">An Introduction to Statistical Learning: notes and
-                                exercises
-                            </h5>
-                            <p style="text-align: justify;">My personal notes and exercises based on the textbook 'An
-                                Introduction to Statistical Learning'.</p>
-                        </div>
-                        <div style="color: red; text-align: center; margin-top: 10px;">
-                            (in progress)
-                        </div>
-                    </div>
-                </div> -->
 
                 <!-- FPM Paper -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <!-- <div class="portfolio-item mx-auto"
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> -->
                         <!-- <a href="/static/docs/Intergovernmental Transfers in Hard Times.pdf" target="_blank" -->
                         <a href="/docs/Intergovernmental Transfers in Hard Times.pdf" target="_blank"
                             rel="noopener noreferrer">
@@ -209,11 +167,11 @@
                             <h5 style="margin-bottom: 0.5rem;">Transfers in Hard Times: Evidence from Brazilian local
                                 governments in the COVID-19 crisis
                             </h5>
-                            <p style="text-align: justify;">This paper aims to evaluate whether the intergovernmental
-                                transfers impacted the response of Brazilian municipalities to the COVID-19 pandemic.
-                                Employing a Regression Discontinuous Design (RDD), we found that higher per capita transfers
-                                had a significant impact in mitigating the number of deaths and serious
-                                hospitalizations.</p>
+                            <p style="text-align: justify;">Este trabalho tem como objetivo avaliar se as transferências 
+                                intergovernamentais influenciaram a resposta dos municípios brasileiros à pandemia de 
+                                COVID-19. Utilizando um <strong>Desenho de Regressão Descontínua (RDD</strong>), encontramos que maiores transferências 
+                                per capita tiveram um impacto significativo na redução do número de mortes e 
+                                internações graves.</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +179,9 @@
                 <!-- Masters thesis -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <!-- <div class="portfolio-item mx-auto"
+                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> -->
                         <a href="/docs/PAPER - Genero, politica e violencia.pdf" target="_blank"
                             rel="noopener noreferrer">
                             <div
@@ -234,13 +194,14 @@
                                 alt="Web scraping para dados de aluguéis no Rio de Janeiro" />
                         </a>
                         <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">Master's thesis
+                            <h5 style="margin-bottom: 0.5rem;">Dissertação de Mestrado
                             </h5>
-                            <p style="text-align: justify;">This study examines how female representation in municipal
-                                election tickets impacts violence against women from 2009 to 2020. Using a Regression
-                                Discontinuity Design (RDD), it finds mixed effects of female leadership on violence,
-                                highlighting the nuanced role of women in political positions and the need for further
-                                research on deputy mayors.</p>
+                            <p style="text-align: justify;">
+                                Este trabalho investiga a relação entre a composição de gênero das chapas eleitorais em eleições 
+                                municipais e indicadores de violência contra mulheres. Utiliza-se um <strong>Desenho de Regressão
+                                Descontínua (RDD)</strong> para identificar a <strong>relação causal</strong> da presença feminina nas chapas.
+                                Não foi encontrado um efeito estatisticamente significante nos municípios em que as mulheres foram vice-prefeitas,
+                                o que sugere uma limitação na capacidade de atuação para mulheres nestes cargos.</p>
                         </div>
                     </div>
                 </div>
@@ -264,17 +225,17 @@
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <h4 class="text-uppercase mb-4">Localização</h4>
                     <p class="lead mb-0">
                         São Paulo
                         <br />
-                        Brazil
+                        Brasil
                     </p>
                 </div>
 
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">Contact</h4>
+                    <h4 class="text-uppercase mb-4">Contato</h4>
                     <p class="lead mb-0">
                         <a href="mailto:gustavofladeira@gmail.com" style="text-decoration: none;">
                             <i class="fas fa-envelope" style="margin-right: 8px;"></i>gustavofladeira@gmail.com
@@ -284,7 +245,7 @@
 
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <h4 class="text-uppercase mb-4">Na rede</h4>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/gustavofladeira/"
                         target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/gustavofladeira"
