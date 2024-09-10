@@ -19,6 +19,19 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
+<style>
+    .keyword-tag {
+        display: inline-block;
+        background-color: #f0f0f0;
+        color: #333;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin: 2px;
+        font-size: 0.85rem;
+        font-weight: bold;
+    }
+</style>
+
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -73,40 +86,41 @@
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
 
-                <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
-                    <!-- <div class="portfolio-item mx-auto"
-                        style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> -->
-                        <a href="https://github.com/gustavofladeira/logistic-regression/tree/main" target="_blank" rel="noopener noreferrer">
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
+            <!-- Portfolio Item 1-->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="portfolio-item mx-auto"
+                    style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); min-height: 450px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <a href="https://github.com/gustavofladeira/logistic-regression/tree/main" target="_blank"
+                        rel="noopener noreferrer">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/logistic_regression.png"
-                                alt="" />
-                        </a>
-                        <div style="margin-top: 15px;">
-                            <h5 style="margin-bottom: 0.5rem;">Regressão Logística na unha
-                            </h5>
-                            <p style="text-align: justify;">
-                                Explorando o algoritmo de <strong>Regressão Logística</strong> de maneira teórica e prática, este projeto desenvolve 
-                                uma função personalizada para executar o algoritmo utilizando apenas a biblioteca NumPy. Além disso, 
-                                a função é testada em um conjunto de dados do Kaggle, e seus resultados são comparados com aqueles 
-                                obtidos através do <strong>scikit-learn</strong>.
-                            </p>
                         </div>
+                        <img class="img-fluid" src="assets/img/portfolio/logistic_regression.png" alt="" />
+                    </a>
+                    <div style="margin-top: 15px;">
+                        <h5 style="margin-bottom: 0.5rem;">Regressão Logística na unha</h5>
+                        <p style="text-align: justify;">
+                            Explorando o algoritmo de Regressão Logística de maneira teórica e prática, este projeto desenvolve 
+                            uma função personalizada para executar o algoritmo utilizando apenas a biblioteca NumPy. Além disso, 
+                            a função é testada, e seus resultados são comparados com aqueles obtidos através do scikit-learn.
+                        </p>
                     </div>
+                        <div style="margin-top: 10px;">
+                            <!-- Tags de palavras-chave com cores específicas -->
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">Python</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Regressão Logística</span>
+                        </div>
                 </div>
+            </div>
 
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -128,9 +142,18 @@
                             <h5 style="margin-bottom: 0.5rem;">Previsão dos custos de planos de saúde
                             </h5>
                             <p style="text-align: justify;">Este projeto explora os custos de planos 
-                                de saúde utilizando inferência estatística e análise preditiva. Além da exploração com <strong>regressão linear</strong>, é realizada uma 
-                                validação cruzada para testar o desempenho de diferentes modelos preditivos, como <strong>XGBoost</strong> e <strong>Decision trees</strong>, 
-                                por exemplo. Por fim, a tunagem de hyperparâmetros ajuda a identificar os melhores ajustes para os modelos.</p>
+                                de saúde utilizando inferência estatística e análise preditiva. Além da exploração com regressão linear, é realizada uma 
+                                validação cruzada para testar o desempenho de diferentes modelos preditivos, como XGBoost e Decision trees, 
+                                por exemplo. Por fim, a tunagem de hyperparâmetros ajuda a identificar os melhores ajustes para os modelos.
+                            </p>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <!-- Tags de palavras-chave com cores específicas -->
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">Python</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Regressão Linear</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">XGBoost</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">LightGBM</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Decision trees</span>
                         </div>
                     </div>
                 </div>
@@ -157,12 +180,20 @@
                         <div style="margin-top: 15px;">
                             <h5 style="margin-bottom: 0.5rem;">Análise e previsão de aluguéis no Rio de Janeiro</h5>
                             <p style="text-align: justify;">Este projeto emprega técnicas de web scraping para coletar 
-                                dados de imóveis no OLX, utiliza um algoritmo de <strong>random forest</strong> para classificar os imóveis 
-                                em categorias de venda ou aluguel, e analisa as tendências geográficas nos bairros por meio 
+                                dados de imóveis no OLX, utiliza um algoritmo de random forests para classificar os imóveis 
+                                em categorias, e analisa as tendências geográficas nos bairros por meio 
                                 de visualizações de dados.</p>
                         </div>
                         <div style="color: red; text-align: center; margin-top: 10px;">
                             (em andamento)
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <!-- Tags de palavras-chave com cores específicas -->
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">Python</span>
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">R</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Random forests</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Geospatial data</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Web scraping</span>
                         </div>
                     </div>
                 </div>
@@ -194,9 +225,16 @@
                             </h5>
                             <p style="text-align: justify;">Este trabalho tem como objetivo avaliar se as transferências 
                                 intergovernamentais influenciaram a resposta dos municípios brasileiros à pandemia de 
-                                COVID-19. Utilizando um <strong>Desenho de Regressão Descontínua (RDD</strong>), encontramos que maiores transferências 
+                                COVID-19. Utilizando um Desenho de Regressão Descontínua (RDD), encontramos que maiores transferências 
                                 per capita tiveram um impacto significativo na redução do número de mortes e 
                                 internações graves.</p>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <!-- Tags de palavras-chave com cores específicas -->
+                            <span class="keyword-tag" style="background-color: #FFB6C1; color: #333;">Inferência Causal</span>
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">R</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Regression Discontinuity Design (RDD)</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Instrumental Variables (IV)</span>
                         </div>
                     </div>
                 </div>
@@ -223,10 +261,16 @@
                             </h5>
                             <p style="text-align: justify;">
                                 Este trabalho investiga a relação entre a composição de gênero das chapas eleitorais em eleições 
-                                municipais e indicadores de violência contra mulheres. Utiliza-se um <strong>Desenho de Regressão
-                                Descontínua (RDD)</strong> para identificar a <strong>relação causal</strong> da presença feminina nas chapas.
+                                municipais e indicadores de violência contra mulheres. Utiliza-se um Desenho de Regressão
+                                Descontínua (RDD) para identificar a relação causal da presença feminina nas chapas.
                                 Não foi encontrado um efeito estatisticamente significante nos municípios em que as mulheres foram vice-prefeitas,
                                 o que sugere uma limitação na capacidade de atuação para mulheres nestes cargos.</p>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <!-- Tags de palavras-chave com cores específicas -->
+                            <span class="keyword-tag" style="background-color: #FFB6C1; color: #333;">Inferência Causal</span>
+                            <span class="keyword-tag" style="background-color: #ADD8E6; color: #333;">R</span>
+                            <span class="keyword-tag" style="background-color: #bfc0c0; color: #333;">Regression Discontinuity Design (RDD)</span>
                         </div>
                     </div>
                 </div>

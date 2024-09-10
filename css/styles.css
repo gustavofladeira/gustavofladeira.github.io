@@ -12886,3 +12886,16 @@ html {
   object-fit: cover;
   /* Isso garante que a imagem cubra todo o espaço sem distorcer */
 }
+
+<style>
+    .keyword-tag {
+        display: inline-block;
+        background-color: #f0f0f0;
+        color: #333;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin: 2px;
+        font-size: 0.85rem;
+        font-weight: bold;
+    }
+</style>
